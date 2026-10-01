@@ -10,21 +10,15 @@
       </emails>
   </datos_personales>
   <experiencia_laboral>
-      <trabajo>
-       <empresa>Grupo Falabella</empresa>
+    <empresa>Grupo Falabella</empresa>
        <cargo>vendedor de seguros</cargo>
        <periodo>Febrero,2026_Mayo, 2026</periodo>
-      </trabajo>
-      <trabajo>
-       <empresa>Grupo Fratelli SAC</empresa>
+    <empresa>Grupo Fratelli SAC</empresa>
        <cargo>supervisor de riesgos</cargo>
-       <periodo>Noviembre, 2025_Febrero, 2026</periodo>
-      </trabajo>
-      <trabajo>
-       <empresa>K y A</empresa>
+       <periodo>Noviembre, 2025_Febrero, 2026</periodo>  
+    <empresa>K y A</empresa>
        <cargo>Supervisor de Riesgos</cargo>
        <periodo>Noviembre, 2024_Agosto, 2025</periodo>
-      </trabajo>
   </experiencia_laboral>
   <informacion_personal>
       <hobbies>
@@ -38,7 +32,7 @@
   </informacion_personal>
   <redes>
       <git_hub></git_hub>
-      <<linkedin></linkedin>
+      <linkedin></linkedin>
       <instagram></instagram>
   </redes>
 </curriculum> 
