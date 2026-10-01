@@ -9,7 +9,27 @@
         <videojuegos>alexsanderpaloma@gmail.com</videojuegos>
       </emails>
   </datos_personales>
-      <experiencia_laboral>
-        <empresa></empresa>
-      </experiencia_laboral>
+  <experiencia_laboral>
+      <empresa></empresa>
+       <cargo></cargo>
+       <periodo></periodo>
+      <empresa></empresa>
+       <cargo></cago>
+       <periodo></periodo>
+  </experiencia_laboral>
+  <informacion_personal>
+      <hobbies>
+        <hobbie>entrenamientos de fuerza</hobbie>
+        <hobbie>videojuegos</hobbie>
+        <hobbie>cultivo de bonsai</hobbie>
+      </hobbies>
+      <habilidades>
+        <habilidad></habilidad>
+      </habilidades>
+  </informacion_personal>
+  <redes>
+      <git_hub></git_hub>
+      <instagram></instagram>
+      <linkedin></linkedin>
+  </redes>
 </curriculum> 
