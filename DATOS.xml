@@ -10,12 +10,21 @@
       </emails>
   </datos_personales>
   <experiencia_laboral>
-      <empresa></empresa>
-       <cargo></cargo>
-       <periodo></periodo>
-      <empresa></empresa>
-       <cargo></cago>
-       <periodo></periodo>
+      <trabajo>
+       <empresa>Grupo Falabella</empresa>
+       <cargo>vendedor de seguros</cargo>
+       <periodo>Febrero,2026_Mayo, 2026</periodo>
+      </trabajo>
+      <trabajo>
+       <empresa>Grupo Fratelli SAC</empresa>
+       <cargo>supervisor de riesgos</cargo>
+       <periodo>Noviembre, 2025_Febrero, 2026</periodo>
+      </trabajo>
+      <trabajo>
+       <empresa>K y A</empresa>
+       <cargo>Supervisor de Riesgos</cargo>
+       <periodo>Noviembre, 2024_Agosto, 2025</periodo>
+      </trabajo>
   </experiencia_laboral>
   <informacion_personal>
       <hobbies>
@@ -24,12 +33,12 @@
         <hobbie>cultivo de bonsai</hobbie>
       </hobbies>
       <habilidades>
-        <habilidad></habilidad>
+        <habilidad>constancia, paciencia, determinacion y buena organizacion para el trabajo</habilidad>
       </habilidades>
   </informacion_personal>
   <redes>
       <git_hub></git_hub>
+      <<linkedin></linkedin>
       <instagram></instagram>
-      <linkedin></linkedin>
   </redes>
 </curriculum> 
