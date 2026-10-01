@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <curriculum>
-  <datos personales>
+  <datos_personales>
       <nombre>Alexsander Mariano</nombre>
       <apellido>Hinostroza Ramos</apellido>
       <emails>
@@ -8,8 +8,8 @@
         <personal>hinostroza.ralex@gmail.com</personal>
         <videojuegos>alexsanderpaloma@gmail.com</videojuegos>
       </emails>
-  <experiencia laboral>
-      <empresa>
-  </experiencia laboral>
-  </datos personales>
+  </datos_personales>
+      <experiencia_laboral>
+        <empresa></empresa>
+      </experiencia_laboral>
 </curriculum> 
