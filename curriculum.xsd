@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.hinostroza_ralex.es/curriculum"
+           xmlns="http://www.hinostroza_ralex.es/curriculum"
+           elementFormDefault="qualified">
+
+  <xs:element name="curriculum">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <!-- Datos Personales -->
+        <xs:element name="datos_personales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellido" type="xs:string"/>
+              <xs:element name="emails">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="estudios" type="xs:string" minOccurs="0"/>
+                    <xs:element name="personal" type="xs:string" minOccurs="0"/>
+                    <xs:element name="videojuegos" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Experiencia Laboral -->
+        <xs:element name="experiencia_laboral">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empleo" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empresa" type="xs:string"/>
+                    <xs:element name="cargo" type="xs:string"/>
+                    <xs:element name="periodo" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Formación -->
+        <xs:element name="formacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="estudio" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="centro" type="xs:string"/>
+                    <xs:element name="carrera" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Idiomas -->
+        <xs:element name="idiomas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idioma" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="lengua" type="xs:string"/>
+                    <xs:element name="nivel" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Información Personal -->
+        <xs:element name="informacion_personal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="hobbies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="hobbie" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="habilidades">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="habilidad" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Redes -->
+        <xs:element name="redes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="github" type="xs:string"/>
+              <xs:element name="linkedin" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
